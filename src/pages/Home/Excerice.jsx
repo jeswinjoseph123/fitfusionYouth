@@ -6,7 +6,7 @@ const Excerice = () => {
   const exercisesData = [
     {
       id: 1,
-      video: "../../public/videos/v2.mp4",
+      video: "/videos/v2.mp4",
       name: "Dumbell Squats",
       duration: 15,
       sets: 3,
@@ -14,7 +14,7 @@ const Excerice = () => {
     },
     {
       id: 2,
-      video: "../../public/videos/v3.mp4",
+      video: "/videos/v3.mp4",
       name: "Leg Press",
       duration: 10,
       sets: 4,
@@ -22,7 +22,7 @@ const Excerice = () => {
     },
     {
       id: 3,
-      video: "../../public/videos/v4.mp4",
+      video: "/videos/v4.mp4",
       name: "Hamstring Workout",
       duration: 15,
       sets: 4,
@@ -30,7 +30,7 @@ const Excerice = () => {
     },
     {
       id: 4,
-      video: "../../public/videos/v5.mp4",
+      video: "/videos/v5.mp4",
       name: "Walking Lunges",
       duration: 15,
       sets: 4,

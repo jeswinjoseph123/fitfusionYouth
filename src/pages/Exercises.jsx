@@ -1,11 +1,11 @@
 import React from "react";
 import { Dumbbell } from "lucide-react";
-// import video from "../../public/videos/v1.mp4";
+// import video from "/videos/v1.mp4";
 const Exercises = () => {
   const exercisesData = [
     {
       id: 1,
-      video: "../../public/videos/v2.mp4",
+      video: "/videos/v2.mp4",
       name: "Dumbell Squats",
       duration: 15,
       sets: 3,
@@ -13,7 +13,7 @@ const Exercises = () => {
     },
     {
       id: 2,
-      video: "../../public/videos/v3.mp4",
+      video: "/videos/v3.mp4",
       name: "Leg Press",
       duration: 10,
       sets: 4,
@@ -21,7 +21,7 @@ const Exercises = () => {
     },
     {
       id: 3,
-      video: "../../public/videos/v4.mp4",
+      video: "/videos/v4.mp4",
       name: "Hamstring Workout",
       duration: 15,
       sets: 4,
@@ -29,7 +29,7 @@ const Exercises = () => {
     },
     {
       id: 4,
-      video: "../../public/videos/v5.mp4",
+      video: "/videos/v5.mp4",
       name: "Walking Lunges",
       duration: 15,
       sets: 4,
@@ -37,7 +37,7 @@ const Exercises = () => {
     },
     {
       id: 5,
-      video: "../../public/videos/v1.mp4",
+      video: "/videos/v1.mp4",
       name: "Bump Squats",
       duration: 15,
       sets: 4,
@@ -45,7 +45,7 @@ const Exercises = () => {
     },
     {
       id: 6,
-      video: "../../public/videos/v6.mp4",
+      video: "/videos/v6.mp4",
       name: "Lunges",
       duration: 10,
       sets: 4,
@@ -53,7 +53,7 @@ const Exercises = () => {
     },
     {
       id: 7,
-      video: "../../public/videos/v7.mp4",
+      video: "/videos/v7.mp4",
       name: "Upper chest curl",
       duration: 18,
       sets: 4,
@@ -61,7 +61,7 @@ const Exercises = () => {
     },
     {
       id: 8,
-      video: "../../public/videos/v8.mp4",
+      video: "/videos/v8.mp4",
       name: "Burpees",
       duration: 15,
       sets: 3,
@@ -69,7 +69,7 @@ const Exercises = () => {
     },
     {
       id: 9,
-      video: "../../public/videos/v9.mp4",
+      video: "/videos/v9.mp4",
       name: "Butterfly",
       duration: 15,
       sets: 4,
@@ -77,7 +77,7 @@ const Exercises = () => {
     },
     {
       id: 10,
-      video: "../../public/videos/v10.mp4",
+      video: "/videos/v10.mp4",
       name: "Cardio",
       duration: 10,
       sets: 4,
@@ -85,7 +85,7 @@ const Exercises = () => {
     },
     {
       id: 11,
-      video: "../../public/videos/v11.mp4",
+      video: "/videos/v11.mp4",
       name: "Barbellrows",
       duration: 10,
       sets: 3,
@@ -93,7 +93,7 @@ const Exercises = () => {
     },
     {
       id: 12,
-      video: "../../public/videos/v12.mp4",
+      video: "/videos/v12.mp4",
       name: "Weight assisted Pullup",
       duration: 10,
       sets: 4,

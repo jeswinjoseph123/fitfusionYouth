@@ -10,7 +10,7 @@ import Plan from "./pages/Plan";
 import Member from "./pages/Member";
 import Exercises from "./pages/Exercises";
 import Footer from "./pages/Home/Footer";
-
+// import Exercises from "./pages/Exercise2";
 function App() {
   return (
     <>
